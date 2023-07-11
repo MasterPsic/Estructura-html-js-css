@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1, h2, p {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  #questions-container {
+    display: block;
+  }
+  
+  #result-container {
+    display: none;
+  }
+  
+  #result-text {
+    font-weight: bold;
+  }
+  

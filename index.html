@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test de Personalidad</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Test de Personalidad</h1>
+
+  <div id="questions-container">
+    <h2>Pregunta 1:</h2>
+    <p>¿Cómo te describes?</p>
+    <ul>
+      <li>
+        <input type="radio" name="q1" value="extrovertido">
+        <label for="extrovertido">Extrovertido</label>
+      </li>
+      <li>
+        <input type="radio" name="q1" value="introvertido">
+        <label for="introvertido">Introvertido</label>
+      </li>
+    </ul>
+
+    <h2>Pregunta 2:</h2>
+    <p>¿Qué tipo de actividades disfrutas más?</p>
+    <ul>
+      <li>
+        <input type="radio" name="q2" value="actividades-creativas">
+        <label for="actividades-creativas">Actividades creativas</label>
+      </li>
+      <li>
+        <input type="radio" name="q2" value="actividades-analiticas">
+        <label for="actividades-analiticas">Actividades analíticas</label>
+      </li>
+    </ul>
+
+    <!-- Agrega más preguntas aquí -->
+
+    <button id="submit-btn">Enviar respuestas</button>
+  </div>
+
+  <div id="result-container">
+    <h2>Resultado:</h2>
+    <p id="result-text"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
